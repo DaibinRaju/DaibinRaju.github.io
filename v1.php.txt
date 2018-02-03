@@ -1,0 +1,11 @@
+<?php
+$password = $_POST['Password'];
+$correct_pass='hai123';
+if($password == $correct_pass) {
+echo "<a href="2.html"></a>";
+}
+else{
+echo "<a href="1.html"></a>";
+}
+
+?>
